@@ -1,0 +1,32 @@
+﻿<div class="p-4">
+    <div class="container">
+        <h1>Hi {{user.firstName}}!</h1>
+        <!-- <p>You're logged in with Angular 9!!</p>
+        <p><a routerLink="/users">Manage Users</a></p> -->
+        <div class="required field urlSectionCls">
+            <div>
+                <input type="text" placeholder="URL" class="inputCls" [(ngModel)]="dummyURL" />
+            </div>
+            <div class="buttonCls text-align-center-Cls" (click) = "showData(dummyURL)">
+                Send
+            </div>
+        </div>
+        
+        <div class="tableDivCls">
+            <table>
+                <thead>
+                    <tr>
+                        <th *ngFor="let columnName of tableColumns">{{columnName}}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let item of tableData">
+                        <td *ngFor="let list of tableColumns">{{item[list]}}</td>
+                    </tr>
+                  </tbody>      
+                
+            </table>
+        </div>
+    </div>
+    
+</div>

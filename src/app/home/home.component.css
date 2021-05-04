@@ -1,0 +1,38 @@
+/* ::placeholder{
+    text-align: center;
+} */
+
+.buttonCls{
+    width: 20%;
+    float: left;
+    padding: 0.5vw;
+    background: #3d4fc3;
+    color: #fff;
+    border-radius: 5vw;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.inputCls{
+    width: 100%;
+    text-align: center;
+}
+.text-align-center-Cls{
+    text-align: center;
+}
+
+.urlSectionCls{
+    margin-top: 5vh;
+}
+
+.tableDivCls{
+    padding: 15vw 0vw;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+  }
